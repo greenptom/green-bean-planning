@@ -1,0 +1,120 @@
+site_code,sku,origin_code,qty,unit_kind,valid_from,source
+RST,200GBBGR,SV,235.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GBBWB,SV,235.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GCOGR,CO,235.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GCOWB,CO,235.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GDBGR,CO_DECAF,235.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GDBWB,CO_DECAF,235.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GHBGR,BR,188.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GHBGR,MX,48.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GHBWB,BR,188.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GHBWB,MX,48.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GRBGR,BR,235.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,200GRBWB,BR,235.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI005,BR,941.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI005,MX,240.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI006,BR,213.6,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI006,MX,54.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI007,BR,213.6,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI007,MX,54.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI012,SV,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI013,MX,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI014,CO_DECAF,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI018,BR,213.6,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI018,MX,54.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI019,BR,213.6,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI019,MX,54.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI020,SV,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI021,SV,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI022,CO_DECAF,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI023,CO_DECAF,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI026,BR,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI027,BR,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI028,MX,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI029,MX,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI030,BR,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI063,BR,941.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI063,MX,240.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI065,SV,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI066,BR,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI067,CO_DECAF,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI068,MX,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI069,GT,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WHOGRI070,GT,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WM1KGWBDARK,BR,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,WM500GWBDECAF,CO_DECAF,588.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,GRXMASTIN-25,GT,267.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,IK1KGWBARABICA,BR,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,IK1KGWBHOUSE,BR,941.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,IK1KGWBHOUSE,IN,235.3,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,NED1KGWBHOUSE,BR,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,SH1KGGRDECAF,CO_DECAF,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,SH1KGWBDECAF,CO_DECAF,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,SH1KGWBFILTER,CO,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+RST,SH1KGWBHOUSE,BR,1176.0,g_green_per_unit,2026-01-01,Ash sheet · Recipes RST
+HAC,CRAFT-INSTANT,BR,245.03,g_green_per_unit,2026-01-01,Ash sheet · Recipes HAC
+HAC,CRAFT-INSTANT-DECAF,CO_DECAF,245.03,g_green_per_unit,2026-01-01,Ash sheet · Recipes HAC
+HAC,SACHET-GRIND-FW,BR,7.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes HAC
+HAC,SACHET-GRIND-BL,BR,7.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes HAC
+HAC,SACHET-GRIND-DECAF,CO_DECAF,7.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes HAC
+HAC,SACHET-GRIND-PSL,BR,7.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes HAC
+UM,PFCCN-GRIN10HC-BAIL,BR,42.84,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-BAIL,GT,18.36,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-COCO,BR,42.84,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-COCO,GT,18.36,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-CRML,BR,42.84,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-CRML,GT,18.36,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-DADE,CR_DECAF,61.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-DARK,BR,18.4,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-DARK,IN,24.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-DARK,UG,18.4,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-DECA,CR_DECAF,61.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-EDI1,IN,61.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-EDI2,KE,61.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-EXDA,BR,30.6,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-EXDA,UG,30.6,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-HOUS,BR,42.84,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-HOUS,GT,18.36,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-HZNT,BR,42.84,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-HZNT,GT,18.36,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN10HC-LIGH,GT,39.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-LIGH,KE,21.4,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-LONG,BR,42.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-LONG,GT,18.4,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-MOCH,BR,42.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-MOCH,GT,18.4,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-PIST,BR,42.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-PIST,GT,18.4,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-PUMP,BR,42.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-PUMP,GT,18.4,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-VANL,BR,42.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-VANL,GT,18.4,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN10HC-XMAS-25,CR,61.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN100HCM-CRML,BR,428.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-CRML,GT,183.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-DARK,BR,183.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-DARK,IN,244.7,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-DARK,UG,183.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-DDE,CR_DECAF,611.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN100HCM-DECA,CR_DECAF,611.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN100HCM-EDA,BR,305.9,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-EDA,UG,305.9,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-EDI1,IN,611.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-EDI2,KE,611.8,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM (share × box base)
+UM,PFCCN-GRIN100HCM-HOUS,BR,428.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-HOUS,GT,183.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-HZNT,BR,428.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-HZNT,GT,183.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-LIGH,GT,397.6,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-LIGH,KE,214.1,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-LONG,BR,428.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-LONG,GT,183.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-VANL,BR,428.2,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+UM,PFCCN-GRIN100HCM-VANL,GT,183.5,g_green_per_unit,2026-01-01,Ash sheet · Recipes UM
+CRL,COLDBREW-FW,BR,15.9,g_coffee_per_can,2026-01-01,Ash sheet · Recipes CRL
+CRL,COLDBREW-OAT-FW,BR,30.0,g_coffee_per_can,2026-01-01,Ash sheet · Recipes CRL
+CRL,COLDBREW-OAT-VL,BR,31.0,g_coffee_per_can,2026-01-01,Ash sheet · Recipes CRL
+CRL,COLDBREW-CL,BR,19.5,g_coffee_per_can,2026-01-01,Ash sheet · Recipes CRL
+CRL,COLDBREW-BL,BR,21.6,g_coffee_per_can,2026-01-01,Ash sheet · Recipes CRL
+MUN,COLDBREW-FW,BR,2.5,g_coffee_per_can,2026-01-01,Ash sheet · Recipes MUN
+MUN,COLDBREW-CL,BR,2.5,g_coffee_per_can,2026-01-01,Ash sheet · Recipes MUN

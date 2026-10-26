@@ -1,0 +1,9 @@
+{
+  "coverage_target": [0.70],
+  "coverage_tolerance": [0.65, 0.75],
+  "container_kg": [20000],
+  "horizon_weeks": [52],
+  "roast_loss": [0.15],
+  "haco_sf_yield": [0.38],
+  "stale_after_days": [8]
+}

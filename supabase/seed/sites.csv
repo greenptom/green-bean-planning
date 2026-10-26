@@ -1,0 +1,7 @@
+code,name,country,role,stock_source,cropster_location,cin7_branch,green_conversion_factor,conversion_note,active
+RST,Grind Roastery (Galleywall),GB,roastery,cropster,Galleywall,"Grind Roastery, London",1,Recipes already in g green per unit,true
+UM,Ultramar Caffè,IT,pod_coman,cropster,Ultramar,Ultramar,1,Recipes in g green per box of pods (10-pod box 61.2 g; 100-pod bulk 611.8 g),true
+HAC,HACO,CH,instant_coman,email,Haco,Haco,1,Recipes in g green per unit incl. micro-ground; SF yield ~38% green→20% MG,true
+MUN,Münsterland (RTD),DE,rtd_coman,email,,,3,Instant coffee per can × 3 = green (Ash: 'Used 3× the weight — need conf'),true
+CRL,Coffein Compagnie (Bremen),DE,rtd_coman,email,,"Coffein, Bremen",1.18,Cold brew concentrate from roasted coffee; roasted→green at 1/0.85 (to confirm with CRL),true
+MAS,Masteroast,GB,roaster_coman,cropster,Masteroast,,1,Roasts BA / Soho House lines from Grind green (Terra Rica),true

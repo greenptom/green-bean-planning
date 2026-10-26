@@ -1,0 +1,17 @@
+code,name,country,decaf,sort_order
+BR,Brazil,Brazil,false,10
+CO,Colombia,Colombia,false,20
+CO_DECAF,Colombia Decaf,Colombia,true,30
+GT,Guatemala,Guatemala,false,40
+MX,Mexico,Mexico,false,50
+SV,El Salvador,El Salvador,false,60
+CR,Costa Rica,Costa Rica,false,70
+CR_DECAF,Costa Rica Decaf,Costa Rica,true,80
+IN,India,India,false,90
+UG,Uganda,Uganda,false,100
+KE,Kenya,Kenya,false,110
+ET,Ethiopia,Ethiopia,false,120
+PE,Peru,Peru,false,130
+CN,China,China,false,140
+RW,Rwanda,Rwanda,false,150
+NP,Nepal,Nepal,false,160

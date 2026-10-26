@@ -1,0 +1,19 @@
+code,cropster_name,kind,site_code,fixing_status
+GALLEYWALL,Galleywall,physical,RST,
+COMMODITY_CENTRE,Commodity Centre,physical,RST,
+IN_TRANSIT,In Transit to Galleywall,in_transit,RST,
+VOLLERS,Vollers,physical,RST,
+PACORINI,Pacorini,physical,RST,
+MOLENBERGNATIE,Molenbergnatie,physical,RST,
+HEMISPHERE,Hemisphere,physical,RST,
+LINCOLN_YORK,Lincoln & York,physical,RST,
+SHARED_ROASTING,Shared Roasting,physical,RST,
+UM,Ultramar,physical,UM,
+HAC,Haco,physical,HAC,
+MAS,Masteroast,physical,MAS,
+MUN,,physical,MUN,
+CRL,,physical,CRL,
+CONTRACT_FIXED,Contracted - Fully Fixed,contracted,RST,fully_fixed
+CONTRACT_C_FIXED,Contracted - C Fixed / Open Diff,contracted,RST,c_fixed_diff_open
+CONTRACT_DIFF_FIXED,Contracted - C Open / Fixed Diff,contracted,RST,c_open_diff_fixed
+CONTRACT_OPEN,Contracted - Fully Open,contracted,RST,fully_open

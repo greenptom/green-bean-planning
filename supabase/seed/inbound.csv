@@ -1,0 +1,12 @@
+eta_week,origin_code,supplier,contract_ref,kg,gbp_per_kg,processing,po_number,source
+2026-07-06,ET,Ally,PG-0526,7200.0,10.12,Washed,PO-2347323,Ash sheet · Inbound
+2026-05-04,BR,,PG-0525,20000.0,6.18,,PO-2347445,Ash sheet · Inbound
+2026-10-05,CO_DECAF,,PG-0524,19250.0,,Washed,PO-2347502,Ash sheet · Inbound
+2026-05-04,CO_DECAF,Cafe Imports,PG-0523,19250.0,,Washed,PO-2347501,Ash sheet · Inbound
+2026-05-04,CO,Cafe Imports,PG-0522,19250.0,,Washed,PO-2347499,Ash sheet · Inbound
+2026-03-02,BR,,PG-0513,5000.0,,Natural,PO-2134045,Ash sheet · Inbound
+2026-03-02,BR,,PG-0512,4000.0,,Natural,PO-2134044,Ash sheet · Inbound
+2026-03-02,BR,,PG-0511,11000.0,,Natural,PO-2134043,Ash sheet · Inbound
+2026-03-02,BR,,PG-0510,7000.0,6.67,Natural,PO-2134041,Ash sheet · Inbound
+2026-03-02,BR,,PG-0509,13000.0,6.67,Natural,PO-2134039,Ash sheet · Inbound
+2026-03-02,BR,Falcon x Grind,PG-0507,20000.0,6.92,Natural,PO-2134035,Ash sheet · Inbound
