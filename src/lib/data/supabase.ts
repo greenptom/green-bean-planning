@@ -16,14 +16,23 @@ const latest = async (sb: SupabaseClient, table: string): Promise<string | null>
   return data?.[0]?.as_of_date ?? null;
 };
 
-const latestRows = async <T>(sb: SupabaseClient, table: string, extraOrder?: string): Promise<{ rows: T[]; asOf: string | null }> => {
+/** PostgREST caps responses at 1,000 rows by default, so page through in ranges. */
+const allRows = async <T>(sb: SupabaseClient, table: string, match?: Record<string, string>): Promise<T[]> => {
+  const page = 1000;
+  const out: T[] = [];
+  for (let from = 0; ; from += page) {
+    const { data, error } = await sb.from(table).select("*").match(match ?? {}).order("id", { ascending: true }).range(from, from + page - 1);
+    if (error) throw error;
+    out.push(...((data ?? []) as T[]));
+    if (!data || data.length < page) break;
+  }
+  return out;
+};
+
+const latestRows = async <T>(sb: SupabaseClient, table: string): Promise<{ rows: T[]; asOf: string | null }> => {
   const asOf = await latest(sb, table);
   if (!asOf) return { rows: [], asOf: null };
-  let q = sb.from(table).select("*").eq("as_of_date", asOf).limit(50000);
-  if (extraOrder) q = q.order(extraOrder);
-  const { data, error } = await q;
-  if (error) throw error;
-  return { rows: (data ?? []) as T[], asOf };
+  return { rows: await allRows<T>(sb, table, { as_of_date: asOf }), asOf };
 };
 
 export const loadSupabaseDataset = async (): Promise<Dataset> => {
@@ -42,7 +51,8 @@ export const loadSupabaseDataset = async (): Promise<Dataset> => {
   const pos = await latestRows<Dataset["purchaseOrders"][number]>(sb, "purchase_orders");
   const jobs = await latestRows<Dataset["productionJobs"][number]>(sb, "production_jobs");
   const fg = await latestRows<Dataset["fgStock"][number]>(sb, "fg_stock");
-  const reports = await sb.from("site_stock_reports").select("*").order("as_of_date", { ascending: false }).limit(5000);
+  const reportRows = await allRows<Dataset["siteStockReports"][number]>(sb, "site_stock_reports");
+  const reports = { data: reportRows.sort((a, b) => (a.as_of_date < b.as_of_date ? 1 : -1)) };
 
   const s = Object.fromEntries((settingsRows.data ?? []).map((r) => [r.key, r.value])) as Record<string, unknown[]>;
   const settings: Settings = {

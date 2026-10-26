@@ -49,8 +49,17 @@ export async function POST(req: Request) {
 
   if (kind === "forecast" || kind === "cin7_production") {
     // production jobs are demand too: merge with forecast rows for the same as_of so demand_green stays one table
-    const { data: demandRows } = await sb.from("demand_fg").select("*").eq("as_of_date", asOf).limit(50000);
-    const { data: jobRows } = await sb.from("production_jobs").select("*").eq("as_of_date", asOf).limit(50000);
+    const pageAll = async (table: string) => {
+      const out: Record<string, unknown>[] = [];
+      for (let from = 0; ; from += 1000) {
+        const { data } = await sb.from(table).select("*").eq("as_of_date", asOf).order("id").range(from, from + 999);
+        out.push(...(data ?? []));
+        if (!data || data.length < 1000) break;
+      }
+      return out;
+    };
+    const demandRows = (await pageAll("demand_fg")) as unknown as Parameters<typeof computeGreenDemand>[0];
+    const jobRows = (await pageAll("production_jobs")) as { site_code: SiteCode | null; sku: string; scheduled_date: string | null; qty: number }[];
     const all = [
       ...(demandRows ?? []),
       ...(jobRows ?? []).map((j) => ({ as_of_date: asOf, site_code: j.site_code ?? "RST", sku: j.sku, week_start: j.scheduled_date ?? asOf, units: j.qty, kind: "production_planned" as const })),
