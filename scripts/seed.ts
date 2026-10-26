@@ -7,9 +7,18 @@ import path from "node:path";
 import Papa from "papaparse";
 import { createClient } from "@supabase/supabase-js";
 
+// Load .env.local (Next.js convention) so the script works from a plain `npm run seed`.
+const envFile = path.join(process.cwd(), ".env.local");
+if (fs.existsSync(envFile)) {
+  for (const line of fs.readFileSync(envFile, "utf8").split("\n")) {
+    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
+    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, "");
+  }
+}
+
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
-if (!url || !key) throw new Error("Set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY");
+if (!url || !key) throw new Error("Fill NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in .env.local (copy .env.example first)");
 const sb = createClient(url, key, { auth: { persistSession: false } });
 const dir = path.join(process.cwd(), "supabase", "seed");
 const csv = <T extends Record<string, unknown> = Record<string, unknown>>(f: string) => Papa.parse<T>(fs.readFileSync(path.join(dir, f), "utf8"), { header: true, skipEmptyLines: true, dynamicTyping: true }).data;
